@@ -8,25 +8,21 @@ import java.util.TreeSet;
 import org.junit.Test;
 
 /*
- * What is An ADT ?
- * 
- * ADT is a mathematical model for a certain class of 
- * data structures that have similar behavior.
- *
- *  interface Set extended from interface Collection,
- *  it has all the functions in Collection.
+ * Class HashSet<E>
+ * java.lang.Object
+	java.util.AbstractCollection<E>
+		java.util.AbstractSet<E>
+			java.util.HashSet<E>
+			
  *  Elements in Set is unordered, and unique.
  *  
- *  
- *  
- *  HashSet implements the Set interface, so it is also 
- *  an unordered collection that does not contain duplicate elements, 
+ *  This class implements the Set interface, backed by a hash table (actually a HashMap instance)
+ *  , so it is also an unordered collection that does not contain duplicate elements, 
  *  allowing null, with only one  null!
  *  
  * */
 public class AdtHashSet{
-	
-	public static void main(String[] args) {
+	public void hashSet() {
 		
 		String [] strings = {"Bob","Martin","Jack","Rose"};
 		HashSet<String> hashSet = new HashSet<String>();

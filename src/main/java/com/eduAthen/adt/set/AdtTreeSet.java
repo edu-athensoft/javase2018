@@ -2,16 +2,24 @@ package com.eduAthen.adt.set;
 
 import java.util.TreeSet;
 
+import org.junit.Test;
+
 public class AdtTreeSet {
 
-	/*
-	 * TreeSet is the implementation class for the SortedSet interface. As the
-	 * name of the SortedSet, the TreeSet ensures that the collection elements
-	 * are sorted.
+	/* Class TreeSet<E>
+	 * 
+	 * java.lang.Object
+			java.util.AbstractCollection<E>
+				java.util.AbstractSet<E>
+					java.util.TreeSet<E>
+					
+	 * A NavigableSet implementation based on a TreeMap. 
+	 * The elements are ordered using their natural ordering,
+	 *  or by a Comparator provided at set creation time, depending on which constructor is used.
 	 */
 
-	public static void main(String[] args) {
-
+	public void treeSet() {
+		
 		TreeSet<Integer> treeSet = new TreeSet<Integer>();
 		treeSet.add(1);
 		treeSet.add(2);
