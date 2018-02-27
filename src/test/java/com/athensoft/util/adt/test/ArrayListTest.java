@@ -1,8 +1,8 @@
-package com.eduAthen.atd.test;
+package com.athensoft.util.adt.test;
 
 import org.junit.Test;
 
-import com.eduAthen.adt.list.AdtArrayList;
+import com.athensoft.util.adt.list.AdtArrayList;
 
 public class ArrayListTest {
 

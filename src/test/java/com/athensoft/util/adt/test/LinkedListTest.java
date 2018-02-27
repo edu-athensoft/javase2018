@@ -1,8 +1,8 @@
-package com.eduAthen.atd.test;
+package com.athensoft.util.adt.test;
 
 import org.junit.Test;
 
-import com.eduAthen.adt.list.AdtLinkedList;
+import com.athensoft.util.adt.list.AdtLinkedList;
 
 public class LinkedListTest {
 

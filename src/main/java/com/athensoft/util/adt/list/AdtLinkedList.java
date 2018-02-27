@@ -1,4 +1,4 @@
-package com.eduAthen.adt.list;
+package com.athensoft.util.adt.list;
 
 import java.util.LinkedList;
 

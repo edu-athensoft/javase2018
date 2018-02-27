@@ -1,4 +1,4 @@
-package com.eduAthen.adt.map;
+package com.athensoft.util.adt.map;
 
 import java.util.HashMap;
 import java.util.Iterator;
@@ -95,5 +95,14 @@ public class AdtHashMap {
 		 *	Key is: 12 & Value is: Wang
 		 * */
 		
+		hmap.put(null, "3333");
+		
+		System.out.println(hmap.get(null));
+		
+
+		hmap.put(null, "4444");
+		hmap.put(3, "555");
+		
+		System.out.println(hmap.get(null));
 	}
 }

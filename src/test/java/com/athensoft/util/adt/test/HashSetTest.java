@@ -1,9 +1,9 @@
-package com.eduAthen.atd.test;
+package com.athensoft.util.adt.test;
 
 import org.junit.Test;
 
-import com.eduAthen.adt.map.AdtHashMap;
-import com.eduAthen.adt.map.AdtTreeMap;
+import com.athensoft.util.adt.map.AdtHashMap;
+import com.athensoft.util.adt.map.AdtTreeMap;
 
 public class HashSetTest {
 

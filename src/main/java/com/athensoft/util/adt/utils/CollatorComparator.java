@@ -1,4 +1,4 @@
-package com.eduAthen.adt.utils;
+package com.athensoft.util.adt.utils;
 
 
 import java.text.CollationKey;
@@ -17,6 +17,13 @@ public class CollatorComparator implements Comparator {
 	    CollationKey key1 = collator.getCollationKey(element1.toString());
 	    CollationKey key2 = collator.getCollationKey(element2.toString());
 	    
+	    /**
+	     * 
+	     * 
+	     * 
+	     */
 	    return key1.compareTo(key2);
+	    
+	    
 	}
 }

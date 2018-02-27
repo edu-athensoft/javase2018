@@ -1,11 +1,11 @@
-package com.eduAthen.adt.map;
+package com.athensoft.util.adt.map;
 
 import java.util.Iterator;
 import java.util.Map;
 import java.util.Set;
 import java.util.TreeMap;
 
-import com.eduAthen.adt.utils.CollatorComparator;
+import com.athensoft.util.adt.utils.CollatorComparator;
 
 
 public class AdtTreeMap {

@@ -1,10 +1,10 @@
-package com.eduAthen.atd.test;
+package com.athensoft.util.adt.test;
 
 import org.junit.Test;
 
-import com.eduAthen.adt.map.AdtHashMap;
-import com.eduAthen.adt.map.AdtTreeMap;
-import com.eduAthen.adt.set.AdtLinkedHashSet;
+import com.athensoft.util.adt.map.AdtHashMap;
+import com.athensoft.util.adt.map.AdtTreeMap;
+import com.athensoft.util.adt.set.AdtLinkedHashSet;
 
 public class LinkedHashSetTest {
 

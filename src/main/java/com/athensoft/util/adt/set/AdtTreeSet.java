@@ -1,4 +1,4 @@
-package com.eduAthen.adt.set;
+package com.athensoft.util.adt.set;
 
 import java.util.TreeSet;
 
@@ -53,7 +53,6 @@ public class AdtTreeSet {
 
 		TreeSet<Object> treeSet2 = new TreeSet<Object>();
 
-		treeSet2.add(new obj());
 		treeSet2.add(new obj()); // Exception!
 		// java.lang.ClassCastException
 

@@ -1,4 +1,4 @@
-package com.eduAthen.adt.set;
+package com.athensoft.util.adt.set;
 
 import java.util.LinkedHashSet;
 
