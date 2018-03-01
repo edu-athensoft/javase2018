@@ -16,9 +16,6 @@ public class GenericTypeTest {
 	
 	private GenericsType generic=new GenericsType();
 	
-
-	
-
 	@Test
 	public void testIntroduceGeneric() {
 		generic.introduceGeneric();
