@@ -14,7 +14,7 @@ public interface GenericInterface<T1> {
 
 
 	/**
-	 * situation 1: 
+	 * wrong situation 1: 
 	 *  a class implementing a generic interface  while does not pass a generic argument
 	 * 
 	 *    erros : T cannot be resolved to a type
@@ -35,9 +35,9 @@ public interface GenericInterface<T1> {
 
 }*/
 
-	/** situation 2:
+	/** good situation 2:
 	 * 
-	 * declare a Generic when we create a subclass 
+	 * declare a Generic when we create a implementation class 
 	 * 
 	 */
 class Genericlass<T> implements GenericInterface<T>{
@@ -54,7 +54,7 @@ class Genericlass<T> implements GenericInterface<T>{
 	
 }
 /**
- * situation 3: 
+ * good situation 3: 
  *  a class implementing a generic interface  and  passing  generic arguments
  * 
  *	compile success
