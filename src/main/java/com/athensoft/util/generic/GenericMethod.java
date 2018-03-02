@@ -3,7 +3,7 @@ package com.athensoft.util.generic;
 /**
  * 
  * A generic method is a method that specifies a concrete type of a generic
- * method at the time the method is called
+ *  at the time the method is called
  * 
  */
 public class GenericMethod {
@@ -60,10 +60,12 @@ public class GenericMethod {
 	 */
 
 	/**
-	 * This is a true generic method.      * First, the <T> between the public
+	 * This is a true generic method.     
+	 * First, the <T> must between the public
 	 * and the return value is a must, which indicates that this is a generic
-	 * method and declares a generic T      * Second,This T can appear anywhere
-	 * in this generic method.      * Last, The number of generics can be many
+	 * method and declares a generic T     
+     * Second,This T can appear anywhere in this generic method.   
+     * Last, The number of generics can be many
 	 * as well
 	 */
 	public <T> T showName(Box2<T> obj) {
