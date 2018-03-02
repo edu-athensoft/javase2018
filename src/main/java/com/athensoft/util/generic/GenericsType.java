@@ -24,7 +24,7 @@ public class GenericsType {
 	public void introduceGeneric() {
 
 		/**
-		 * Generic version of the Box class.
+		 * non-Generic version of the Box class.
 		 * 
 		 * Since its methods accept or return an Object, you are free to pass in
 		 * whatever you want,
@@ -49,7 +49,7 @@ public class GenericsType {
 		System.out.println(box2.getT());
 
 		/**
-		 * They Type I set is Object , that means we are free to pass in
+		 * The Type I set is Object , that means we are free to pass in
 		 * whatever we want, and now the warning is gone.
 		 **/
 		Box2<Object> box2Fixed = new Box2<Object>();
@@ -62,7 +62,7 @@ public class GenericsType {
 
 		/**
 		 * now I have a question, If I set the other type instead of Object but
-		 * set the same data that I set before. then what will happen?
+		 *  the same data that I set before. then what will happen?
 		 * 
 		 */
 
