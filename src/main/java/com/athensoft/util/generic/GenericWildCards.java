@@ -64,6 +64,15 @@ public class GenericWildCards {
 		List<?> names = new ArrayList();
 		//error :The method add(int, capture#2-of ?) in the type List<capture#2-of ?> is not applicable for the arguments (int)
 		//names.add(1);
+		
+		
+		
 	}
 	
+	public static void process(List<? extends Number> list) {
+		List<? extends String> names = new ArrayList<String>();
+		//names.add("123");
+
+		}
+
 }
